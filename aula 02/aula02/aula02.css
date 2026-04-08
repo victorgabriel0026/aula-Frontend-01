@@ -1,0 +1,34 @@
+a:hover{
+    color: greenyellow;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 720px;
+    margin:0 auto;
+    padding: 15px;
+    background-image:  url();
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+.imgtopo {
+    width: 200px;
+    height: 75px;
+}
+
+.imgfundo {
+    width: 500px;
+    height:500px;
+}
