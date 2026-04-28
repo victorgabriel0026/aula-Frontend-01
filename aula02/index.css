@@ -1,0 +1,53 @@
+a:hover{
+    color: greenyellow;
+}
+
+body {
+    background-color: rgb(158, 131, 233);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0 auto;
+}
+
+#primeira-sessao{
+    background-color: rgb(149, 150, 255);
+}
+#segunda-sessao{
+    background-color: rgb(156, 255, 255);
+}
+#terceira-sessao{
+    background-color: blanchedalmond;
+}
+#quarta_sessao{
+    background-color: blueviolet;
+}
+header {
+    background-color: rgb(127, 236, 169);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+.imgtopo {
+    width: 200px;
+    height: 75px;
+}
+
+.imgfundo {
+    width: 500px;
+    height:500px;
+}
