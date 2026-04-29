@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 a:hover{
-    color: greenyellow;
+    color: rgb(253, 25, 223);
 }
 
 body {
@@ -33,6 +33,16 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+#btn-enviar{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+#btn-enviar:hover{
+    cursor: pointer;
 }
 .container{
     display: flex;
