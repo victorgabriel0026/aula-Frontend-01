@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 a:hover{
     color: greenyellow;
 }
@@ -22,8 +25,11 @@ body {
     background-color: blueviolet;
 }
 header {
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: rgb(127, 236, 169);
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +42,20 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
+.main{
+    flex-direction: column;
+    padding: 15px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgbody{
+    width: 500px;
+    height: 500px;
+}
 
 li{
     display: inline;
@@ -44,10 +64,22 @@ li{
 
 .imgtopo {
     width: 200px;
-    height: 75px;
+    height: 60px;
 }
 
 .imgfundo {
     width: 500px;
     height:500px;
+}
+@media (max-width:700px) {
+    .container{
+    flex-direction: column;
+    }
+    .imgbody{
+        width: 250px;
+        height: 250px;
+    }
+    .imgtopo{
+        display: none;
+    }
 }
